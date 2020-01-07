@@ -1,0 +1,32 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 9, ../.sass/general/_ie.scss */
+.ul-step > .active-st {
+  font-size: 1.3em !important;
+}
+
+/* line 13, ../.sass/general/_ie.scss */
+.men-blpag li {
+  text-align: center !important;
+}
+
+/* line 22, ../.sass/general/_ie.scss */
+.body-content .input--filled .graphic--madoka {
+  stroke-dashoffset: 962;
+}
+/* line 26, ../.sass/general/_ie.scss */
+.body-content .input__field--madoka:focus + .input__label--madoka .input__label-content--madoka,
+.body-content .input--filled .input__label-content--madoka {
+  margin-top: -30px;
+}
+/* line 35, ../.sass/general/_ie.scss */
+.body-content .li-step .steps .step::before {
+  right: -50%;
+}
+/* line 41, ../.sass/general/_ie.scss */
+.body-content .li-step .steps .no-before::before {
+  right: -50%;
+}

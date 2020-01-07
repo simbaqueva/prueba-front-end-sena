@@ -1,0 +1,163 @@
+/* line 3, ../.sass/general/_general.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../.sass/general/_general.scss */
+img {
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 15, ../.sass/general/_general.scss */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 22, ../.sass/general/_general.scss */
+.hed {
+  width: 100%;
+  background-image: url(../images/4.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 74%;
+  background-size: 100%;
+  padding: 4% 0 12% 0%;
+}
+/* line 30, ../.sass/general/_general.scss */
+.hed::before {
+  content: '';
+  background: rgba(144, 51, 72, 0.42);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 40, ../.sass/general/_general.scss */
+.hed .button {
+  position: relative;
+  background-color: #0A0AFC;
+  border: none;
+  color: white;
+  padding: 18px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+/* line 54, ../.sass/general/_general.scss */
+.hed .img1 {
+  height: 434px;
+  width: 100%;
+}
+/* line 59, ../.sass/general/_general.scss */
+.hed .txt1 {
+  position: relative;
+  color: #00F919;
+  font-size: 83pt;
+  margin: 0 auto;
+  width: 100%;
+}
+/* line 66, ../.sass/general/_general.scss */
+.hed .txt2 {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 28pt;
+  color: #b4c2cc;
+}
+
+/* line 77, ../.sass/general/_general.scss */
+.content .subcont .cajones {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin: 0 auto;
+  width: 33%;
+  background-color: white;
+  margin-top: 23px;
+  overflow: hidden;
+}
+/* line 87, ../.sass/general/_general.scss */
+.content .subcont .cajones img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+/* line 99, ../.sass/general/_general.scss */
+.foot {
+  width: 100%;
+  background-image: url(../images/8.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 74%;
+  background-size: 100%;
+  padding: 4%  0 0% 0%;
+}
+/* line 107, ../.sass/general/_general.scss */
+.foot .txt3 {
+  position: relative;
+  color: #DDE6DA;
+  font-size: 83pt;
+  margin: 0 auto;
+  width: 100%;
+}
+/* line 115, ../.sass/general/_general.scss */
+.foot .txt4 {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 28pt;
+  color: #EBFF00;
+}
+
+@media (max-width: 1024px) {
+  /* line 127, ../.sass/general/_general.scss */
+  .foot .txt3 {
+    font-size: 31pt;
+  }
+  /* line 131, ../.sass/general/_general.scss */
+  .foot .txt4 {
+    font-size: 20pt;
+  }
+
+  /* line 136, ../.sass/general/_general.scss */
+  .hed .txt1 {
+    font-size: 48pt;
+  }
+}
+@media (max-width: 640px) {
+  /* line 153, ../.sass/general/_general.scss */
+  .hed {
+    padding: 0% 0 6% 0%;
+  }
+  /* line 156, ../.sass/general/_general.scss */
+  .hed::before {
+    height: 55%;
+  }
+  /* line 160, ../.sass/general/_general.scss */
+  .hed .txt1 {
+    font-size: 34pt;
+  }
+  /* line 164, ../.sass/general/_general.scss */
+  .hed .txt2 {
+    font-size: 16pt;
+  }
+
+  /* line 170, ../.sass/general/_general.scss */
+  .foot .txt3 {
+    font-size: 23pt;
+  }
+  /* line 174, ../.sass/general/_general.scss */
+  .foot .txt4 {
+    font-size: 11pt;
+  }
+}

@@ -1,0 +1,14 @@
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -o-border-radius: $radius;
+}
+
+
+@mixin flex{width: 40%;}
+ @mixin ajus{max-width: 100%;}       
+
+
+

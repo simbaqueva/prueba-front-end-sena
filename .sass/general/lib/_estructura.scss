@@ -1,0 +1,17 @@
+@import url("//fonts.googleapis.com/css?family=Raleway");
+
+html{
+	overflow: auto;
+	min-width: $wrapper;
+	font-size: 16px;
+	color: $textColor;
+}
+
+body{
+	overflow: visible;
+}
+
+.wrapper{
+	width: $wrapper;
+	margin: auto;
+}
